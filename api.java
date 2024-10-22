@@ -8,6 +8,13 @@ import javax.inject.Inject;
 import org.jboss.logging.Logger;
 import java.io.*;
 import javax.ws.rs.core.Response.Status;
+import javax.ws.rs.Path;
+import javax.ws.rs.POST;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.Produces;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 
 @QuarkusMain
 public class Application {
